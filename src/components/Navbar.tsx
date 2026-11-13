@@ -5,15 +5,38 @@ import {
 	AlignRight,
 	X,
 	Settings,
-	Type,
 	Sun,
 	Moon,
-	Contrast,
 	Globe,
 	ChevronLeft,
 } from "lucide-react";
 import { cn } from "../lib/utils";
 import logo from "../img/amberweb-logo-white.png";
+
+interface GoogleTranslateElementConstructor {
+	new (
+		options: {
+			pageLanguage: string;
+			autoDisplay: boolean;
+			includedLanguages: string;
+			layout: unknown;
+		},
+		containerId: string,
+	): unknown;
+	InlineLayout: {
+		SIMPLE: unknown;
+	};
+}
+
+declare global {
+	interface Window {
+		google?: {
+			translate?: {
+				TranslateElement?: GoogleTranslateElementConstructor;
+			};
+		};
+	}
+}
 
 // --- KALBOS KEITIMO LOGIKA ---
 const changeLanguage = (lang: string) => {
@@ -48,20 +71,18 @@ const Navbar = () => {
 	useEffect(() => {
 		// 1. Sukuriame intervalą, kuris laukia, kol užsikraus Google skriptas
 		const interval = setInterval(() => {
-			if (
-				(window as any).google &&
-				(window as any).google.translate &&
-				(window as any).google.translate.TranslateElement
-			) {
+			const TranslateElement =
+				window.google?.translate?.TranslateElement;
+
+			if (TranslateElement) {
 				clearInterval(interval);
 				try {
-					new (window as any).google.translate.TranslateElement(
+					new TranslateElement(
 						{
 							pageLanguage: "lt",
 							autoDisplay: false,
 							includedLanguages: "lt,en",
-							layout: (window as any).google.translate
-								.TranslateElement.InlineLayout.SIMPLE,
+							layout: TranslateElement.InlineLayout.SIMPLE,
 						},
 						"google_translate_element"
 					);
@@ -156,6 +177,7 @@ const Navbar = () => {
 				<div className="flex bg-white/5 rounded-2xl p-1 border border-white/5">
 					{(["normal", "large", "xl"] as const).map((size) => (
 						<button
+							type="button"
 							key={size}
 							onClick={() => {
 								setFontSize(size);
@@ -172,6 +194,14 @@ const Navbar = () => {
 									? "bg-white/15 text-white shadow-lg"
 									: "text-white/30"
 							)}
+							aria-label={`Nustatyti ${
+								size === "normal"
+									? "įprastą"
+									: size === "large"
+									? "didesnį"
+									: "labai didelį"
+							} šrifto dydį`}
+							aria-pressed={fontSize === size}
 						>
 							{size === "normal"
 								? "A"
@@ -188,6 +218,7 @@ const Navbar = () => {
 				</span>
 				<div className="flex bg-white/5 rounded-2xl p-1 gap-1 border border-white/5">
 					<button
+						type="button"
 						onClick={() => {
 							setIsHighContrast(false);
 							document.documentElement.classList.remove(
@@ -201,10 +232,13 @@ const Navbar = () => {
 								? "bg-white/15 text-white"
 								: "text-white/30"
 						)}
+						aria-label="Įprastas kontrastas"
+						aria-pressed={!isHighContrast}
 					>
 						<Sun size={20} />
 					</button>
 					<button
+						type="button"
 						onClick={() => {
 							setIsHighContrast(true);
 							document.documentElement.classList.add(
@@ -219,6 +253,8 @@ const Navbar = () => {
 								? "bg-white/15 text-white"
 								: "text-white/30"
 						)}
+						aria-label="Didelis kontrastas"
+						aria-pressed={isHighContrast}
 					>
 						<Moon size={20} />
 					</button>
@@ -234,6 +270,7 @@ const Navbar = () => {
 			</span>
 			<div className="flex flex-col gap-2">
 				<button
+					type="button"
 					onClick={() => changeLanguage("lt")}
 					className={cn(
 						"w-full h-14 flex items-center justify-between px-6 rounded-2xl font-bold transition-all border border-white/5",
@@ -245,6 +282,7 @@ const Navbar = () => {
 					Lietuvių <span className="text-xs opacity-50">LT</span>
 				</button>
 				<button
+					type="button"
 					onClick={() => changeLanguage("en")}
 					className={cn(
 						"w-full h-14 flex items-center justify-between px-6 rounded-2xl font-bold transition-all border border-white/5",
@@ -293,6 +331,7 @@ const Navbar = () => {
 					<div className="hidden lg:flex items-center gap-4">
 						<div className="flex items-center gap-2 relative">
 							<button
+								type="button"
 								onClick={() => {
 									setDesktopSettingsOpen(
 										!desktopSettingsOpen,
@@ -304,12 +343,16 @@ const Navbar = () => {
 									desktopSettingsOpen &&
 										"text-white bg-white/10",
 								)}
+								aria-label="Atidaryti prieinamumo nustatymus"
+								aria-expanded={desktopSettingsOpen}
+								aria-controls="desktop-settings-panel"
 							>
 								<Settings size={20} />
 							</button>
 							<AnimatePresence>
 								{desktopSettingsOpen && (
 									<motion.div
+										id="desktop-settings-panel"
 										initial={{ opacity: 0, y: 10 }}
 										animate={{ opacity: 1, y: 0 }}
 										exit={{ opacity: 0, y: 10 }}
@@ -321,6 +364,7 @@ const Navbar = () => {
 							</AnimatePresence>
 
 							<button
+								type="button"
 								onClick={() => {
 									setDesktopLangOpen(!desktopLangOpen);
 									setDesktopSettingsOpen(false);
@@ -329,6 +373,9 @@ const Navbar = () => {
 									"p-2 rounded-full hover:bg-white/10 text-white/70 transition-colors flex items-center gap-1",
 									desktopLangOpen && "text-white bg-white/10",
 								)}
+								aria-label="Pasirinkti svetainės kalbą"
+								aria-expanded={desktopLangOpen}
+								aria-controls="desktop-language-panel"
 							>
 								<Globe size={20} />
 								<span className="text-[10px] font-bold opacity-50 uppercase">
@@ -338,6 +385,7 @@ const Navbar = () => {
 							<AnimatePresence>
 								{desktopLangOpen && (
 									<motion.div
+										id="desktop-language-panel"
 										initial={{ opacity: 0, y: 10 }}
 										animate={{ opacity: 1, y: 0 }}
 										exit={{ opacity: 0, y: 10 }}
@@ -359,11 +407,15 @@ const Navbar = () => {
 					{/* MOBILE TOGGLE */}
 					<div className="lg:hidden flex items-center">
 						<button
+							type="button"
 							onClick={() => {
 								setIsOpen(!isOpen);
 								setActiveTab("menu");
 							}}
 							className="text-white/80 p-2"
+							aria-label={isOpen ? "Uždaryti meniu" : "Atidaryti meniu"}
+							aria-expanded={isOpen}
+							aria-controls="mobile-navigation-menu"
 						>
 							{isOpen ? (
 								<X size={26} />
@@ -379,6 +431,7 @@ const Navbar = () => {
 			<AnimatePresence>
 				{isOpen && (
 					<motion.div
+						id="mobile-navigation-menu"
 						initial={{ opacity: 0, y: 10 }}
 						animate={{ opacity: 1, y: 0 }}
 						exit={{ opacity: 0, y: 10 }}
@@ -411,6 +464,7 @@ const Navbar = () => {
 										</Link>
 										<div className="flex items-center justify-between mt-6 pt-6 border-t border-white/5">
 											<button
+												type="button"
 												onClick={() =>
 													setActiveTab("settings")
 												}
@@ -422,6 +476,7 @@ const Navbar = () => {
 												</span>
 											</button>
 											<button
+												type="button"
 												onClick={() =>
 													setActiveTab("lang")
 												}
@@ -443,6 +498,7 @@ const Navbar = () => {
 										className="flex flex-col"
 									>
 										<button
+											type="button"
 											onClick={() => setActiveTab("menu")}
 											className="flex items-center gap-2 text-electric-blue mb-6 font-bold uppercase text-xs tracking-widest"
 										>

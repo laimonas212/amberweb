@@ -208,9 +208,9 @@ const HeroSection: React.FC<HeroSectionProps> = ({ h1, introText }) => {
 											<Icon className="h-6 w-6" />
 										</div>
 
-										<h3 className="mb-2 text-sm font-semibold text-white">
+										<p className="mb-2 text-sm font-semibold text-white">
 											{benefit.title}
-										</h3>
+										</p>
 
 										<p className="text-xs leading-relaxed text-white/50">
 											{benefit.description}

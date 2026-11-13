@@ -106,13 +106,19 @@ const Kontaktai = () => {
 
 		// Original Netlify form submission mechanism
 		const netlifyFormData = new FormData(myForm);
+		const encodedFormData = new URLSearchParams();
+		netlifyFormData.forEach((value, key) => {
+			if (typeof value === "string") {
+				encodedFormData.append(key, value);
+			}
+		});
 
 		fetch("/", {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/x-www-form-urlencoded",
 			},
-			body: new URLSearchParams(netlifyFormData as any).toString(),
+			body: encodedFormData.toString(),
 		})
 			.then((response) => {
 				if (!response.ok) {
@@ -268,13 +274,15 @@ const Kontaktai = () => {
 
 								<div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
 									<div>
-										<label className="block text-sm text-white/70 mb-2">
+										<label htmlFor="contact-name" className="block text-sm text-white/70 mb-2">
 											Jūsų vardas *
 										</label>
 
 										<input
+											id="contact-name"
 											type="text"
 											name="name"
+											autoComplete="name"
 											placeholder="Vardas"
 											required
 											value={formData.name}
@@ -290,13 +298,15 @@ const Kontaktai = () => {
 									</div>
 
 									<div>
-										<label className="block text-sm text-white/70 mb-2">
+										<label htmlFor="contact-email" className="block text-sm text-white/70 mb-2">
 											El. paštas *
 										</label>
 
 										<input
+											id="contact-email"
 											type="email"
 											name="email"
+											autoComplete="email"
 											placeholder="vardas@imone.lt"
 											required
 											value={formData.email}
@@ -313,13 +323,15 @@ const Kontaktai = () => {
 								</div>
 
 								<div>
-									<label className="block text-sm text-white/70 mb-2">
+									<label htmlFor="contact-phone" className="block text-sm text-white/70 mb-2">
 										Telefono numeris *
 									</label>
 
 									<input
+										id="contact-phone"
 										type="tel"
 										name="phone"
+										autoComplete="tel"
 										placeholder="+370 123 4567"
 										required
 										value={formData.phone}
@@ -335,11 +347,12 @@ const Kontaktai = () => {
 								</div>
 
 								<div>
-									<label className="block text-sm text-white/70 mb-2">
+									<label htmlFor="contact-message" className="block text-sm text-white/70 mb-2">
 										Žinutė *
 									</label>
 
 									<textarea
+										id="contact-message"
 										name="message"
 										placeholder="Trumpai papasakokite, kokios svetainės ar sprendimo ieškote..."
 										rows={5}

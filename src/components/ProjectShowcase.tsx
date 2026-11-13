@@ -53,13 +53,16 @@ const FullProjectShowcase = ({
 		>
 			<div className="relative" onClick={(e) => e.stopPropagation()}>
 				<button
+					type="button"
 					className="absolute top-2 right-2 bg-black/60 hover:bg-black/80 text-white p-1.5 rounded-full transition"
 					onClick={() => setLightboxImg(null)}
+					aria-label="Uždaryti padidintą projekto nuotrauką"
 				>
 					<X size={16} />
 				</button>
 				<img
 					src={lightboxImg}
+					alt={getImageAlt(altTitle, "padidinta")}
 					className="max-h-[90vh] max-w-[90vw] rounded-xl shadow-xl"
 				/>
 			</div>

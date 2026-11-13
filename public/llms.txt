@@ -1,0 +1,32 @@
+# Amberweb
+
+> Amberweb yra Lietuvos interneto svetainių kūrimo studija. Kuriame greitas, patogias ir paieškai optimizuotas reprezentacines svetaines bei elektronines parduotuves verslams.
+
+Šiame faile pateikiama trumpa svetainės struktūra ir svarbiausios nuorodos AI agentams bei kalbos modeliams.
+
+## Pagrindiniai puslapiai
+
+- [Pradžia](https://amberweb.lt/): Amberweb paslaugų ir požiūrio apžvalga.
+- [Interneto svetainių kūrimas](https://amberweb.lt/interneto-svetainiu-kurimas): informacija apie individualių interneto svetainių kūrimą.
+- [Projektai](https://amberweb.lt/projektai): įgyvendintų interneto svetainių ir el. parduotuvių pavyzdžiai.
+- [Paruošti dizainai](https://amberweb.lt/paruosti-dizainai): paruoštų svetainių dizainų katalogas.
+- [Kainos](https://amberweb.lt/kainos): svetainių kūrimo planai ir kainodara.
+- [Kontaktai](https://amberweb.lt/kontaktai): užklausos forma ir kontaktinė informacija.
+
+## Paslaugos
+
+- [Svetainių kūrimas](https://amberweb.lt/svetainiu-kurimas): šiuolaikiškų verslo svetainių kūrimas.
+- [El. parduotuvių kūrimas](https://amberweb.lt/e-parduotuviu-kurimas): WooCommerce ir kiti elektroninės prekybos sprendimai.
+- [WordPress svetainių kūrimas](https://amberweb.lt/wordpress-svetainiu-kurimas): WordPress platformos sprendimai verslui.
+- [Svetainių optimizavimas](https://amberweb.lt/svetainiu-optimizavimas): greičio, techninio SEO ir naudojimo patirties gerinimas.
+
+## Turinys ir taisyklės
+
+- [Straipsniai](https://amberweb.lt/blog): gidai apie svetainių kūrimą, WordPress ir elektroninę prekybą.
+- [Privatumo politika](https://amberweb.lt/privatumo-politika): asmens duomenų tvarkymo informacija.
+- [Naudojimosi sąlygos](https://amberweb.lt/salygos): paslaugų naudojimo sąlygos.
+
+## Kontaktai
+
+- El. paštas: [info@amberweb.lt](mailto:info@amberweb.lt)
+- Telefonas: [+370 611 18874](tel:+37061118874)
