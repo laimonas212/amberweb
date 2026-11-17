@@ -343,10 +343,14 @@ const Landing = () => {
 									integracijomis.
 								</p>
 								<p className="mt-4">
+									<strong className="text-white">
+										Interneto svetainių kūrimo kaina
+										prasideda nuo 499 €.
+									</strong>{" "}
 									Kiekvieną projektą vertiname individualiai,
 									kad pasiūlymas atitiktų realius poreikius, o
-									ne nereikalingas funkcijas. Daugiau
-									informacijos rasite mūsų{" "}
+									ne nereikalingas funkcijas. Visą kainodarą
+									rasite mūsų{" "}
 									<Link
 										to="/kainos"
 										className="font-medium text-electric-blue hover:text-white"

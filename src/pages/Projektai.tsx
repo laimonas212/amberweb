@@ -63,7 +63,9 @@ const ProjectsHeader: React.FC = () => {
 
 					<div className="lg:text-right border-l-2 lg:border-l-0 lg:border-r-2 border-electric-blue/50 pl-5 lg:pl-0 lg:pr-6">
 						<div className="text-5xl md:text-6xl font-bold text-white">
-							{String(sortedProjects.length).padStart(2, "0")}
+							{String(
+								Math.floor(sortedProjects.length / 10) * 10,
+							).padStart(2, "0")}
 							<span className="text-electric-blue">+</span>
 						</div>
 						<p className="text-white/40 text-sm mt-2">
