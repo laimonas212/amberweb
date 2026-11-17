@@ -144,10 +144,10 @@ const projects = [
 	{
 		id: "dusttoriches",
 		title: "Dust to Riches",
-		subtitle: "Gamifikuota buities darbų valdymo platforma",
+		subtitle: "Žaidimo principais paremta buities darbų valdymo platforma",
 
 		description:
-			"Dust to Riches - asmeninis Web App projektas, kurio idėja - paversti kasdienius buities darbus nuotykiu. Vietoje įprasto užduočių sąrašo kuriama žaidybinė patirtis, skatinanti į kasdienes pareigas pažvelgti kitaip. Projektas orientuotas į gamifikacijos principų pritaikymą, interaktyvią naudotojo patirtį ir individualiai kuriamą aplikacijos funkcionalumą. Tai savarankiškai vystomas skaitmeninis produktas, apimantis aplikacijos koncepciją, sąsajos dizainą, programavimą ir techninę architektūrą.",
+			"Dust to Riches – interaktyvi Web App platforma, paverčianti kasdienius buities darbus įtraukiančia žaidybine patirtimi. Įprastos užduotys čia įgauna naują prasmę – jas atliekant kaupiami taškai, siekiama tikslų ir palaikoma motyvacija. Platformoje derinamas užduočių valdymas, žaidimo elementai ir apgalvota naudotojo patirtis. Sukurtas individualus funkcionalumas, vientisas sąsajos dizainas ir prisitaikanti aplikacijos architektūra, leidžianti kasdienes pareigas paversti įdomesne veikla.",
 
 		image: Images.projects.dust2riches,
 		images: {
@@ -156,16 +156,16 @@ const projects = [
 			mobile: Images.projects.dust2riches.mobile,
 		},
 
-		alt: "Dust to Riches - žaidybinė buities darbų valdymo Web App platforma",
+		alt: "Dust to Riches – žaidimo principais paremta buities darbų valdymo platforma",
 
 		tags: [
 			"Web App",
-			"Gamifikacija",
+			"Žaidimo elementai",
 			"Individualus programavimas",
 			"UI/UX dizainas",
 			"Interaktyvi aplikacija",
 			"Užduočių valdymas",
-			"Žaidybinė patirtis",
+			"Taškų sistema",
 			"Responsive dizainas",
 			"Skaitmeninio produkto kūrimas",
 		],
@@ -173,30 +173,30 @@ const projects = [
 		link: "https://www.dusttoriches.app",
 
 		metaTitle:
-			"Dust to Riches - paversk buities darbus nuotykiu | Amberweb",
+			"Dust to Riches – buities darbai gali būti įdomūs | Amberweb",
 		metaDescription:
-			"Dust to Riches - asmeninis gamifikuotos Web App platformos projektas, kuriame kasdieniai buities darbai tampa žaidybine patirtimi.",
+			"Dust to Riches – interaktyvi buities darbų valdymo platforma, kuri kasdienes užduotis paverčia įtraukiančia žaidybine patirtimi.",
 
 		goals: [
-			"Sukurti išskirtinę Web App platformą, kuri kasdienius buities darbus paverstų įtraukiančia veikla",
-			"Pritaikyti gamifikacijos principus kasdienių užduočių valdymui",
-			"Sukurti intuityvią ir vizualiai patrauklią naudotojo patirtį",
-			"Vystyti savarankišką skaitmeninį produktą su individualiu funkcionalumu",
+			"Sukurti platformą, kuri kasdienius buities darbus paverstų įdomesne ir labiau įtraukiančia veikla",
+			"Pritaikyti žaidimo elementus užduočių valdymui ir naudotojų motyvacijai skatinti",
+			"Sukurti intuityvią, patrauklią ir lengvai naudojamą sąsają",
+			"Užtikrinti patogų platformos naudojimą skirtinguose įrenginiuose",
 		],
 
 		solutions: [
-			"Individualiai kuriama Web App aplikacijos architektūra",
-			"Gamifikacijos principais paremta naudotojo patirtis",
-			"Interaktyvi sąsaja ir individualiai programuojamas funkcionalumas",
-			"Kasdienių užduočių pateikimas žaidybinėje aplinkoje",
-			"Prisitaikantis dizainas kompiuteriams ir mobiliesiems įrenginiams",
+			"Individualiai sukurta Web App aplikacijos architektūra",
+			"Žaidimo elementais paremta užduočių valdymo sistema",
+			"Interaktyvi naudotojo sąsaja ir individualus funkcionalumas",
+			"Taškų kaupimo ir pasiekimų sistema",
+			"Prisitaikantis dizainas kompiuteriams, planšetėms ir mobiliesiems įrenginiams",
 		],
 
 		results: [
-			"Sukurtas savarankiškas Web App produkto projektas",
-			"Kasdienių buities darbų idėja paversta interaktyvia žaidybine patirtimi",
-			"Įgyvendinta individuali aplikacijos koncepcija ir naudotojo sąsaja",
-			"Sukurta bazė tolimesniam produkto funkcionalumo vystymui",
+			"Sukurta interaktyvi buities darbų valdymo platforma",
+			"Kasdienės užduotys paverstos įtraukiančia žaidybine patirtimi",
+			"Įgyvendinta individuali naudotojo sąsaja ir funkcionalumas",
+			"Sukurta vientisa ir skirtingiems įrenginiams pritaikyta aplikacija",
 		],
 	},
 	//  LŽSPA
