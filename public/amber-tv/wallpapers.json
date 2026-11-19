@@ -1,148 +1,253 @@
 {
-  "wallpapers": [
-    {
-      "id": "amber-01",
-      "title": "Quiet Fjord",
-      "category": "Nature",
-      "url": "https://amberweb.lt/amber-tv/wallpapers/amber-01.webp",
-      "thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-01.webp",
-      "credit": "Unsplash · fabrizio-conti"
-    },
-    {
-      "id": "amber-02",
-      "title": "Architectural Lines",
-      "category": "Architecture",
-      "url": "https://amberweb.lt/amber-tv/wallpapers/amber-02.webp",
-      "thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-02.webp",
-      "credit": "Unsplash · joel-filipe"
-    },
-    {
-      "id": "amber-03",
-      "title": "Violet Flow",
-      "category": "Abstract",
-      "url": "https://amberweb.lt/amber-tv/wallpapers/amber-03.webp",
-      "thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-03.webp",
-      "credit": "Unsplash · martin-martz"
-    },
-    {
-      "id": "amber-04",
-      "title": "White Geometry",
-      "category": "Architecture",
-      "url": "https://amberweb.lt/amber-tv/wallpapers/amber-04.webp",
-      "thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-04.webp",
-      "credit": "Unsplash · julien-moreau"
-    },
-    {
-      "id": "amber-05",
-      "title": "Monochrome Pattern",
-      "category": "Abstract",
-      "url": "https://amberweb.lt/amber-tv/wallpapers/amber-05.webp",
-      "thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-05.webp",
-      "credit": "Unsplash · pat-whelen"
-    },
-    {
-      "id": "amber-06",
-      "title": "Dark Sculpture",
-      "category": "Abstract",
-      "url": "https://amberweb.lt/amber-tv/wallpapers/amber-06.webp",
-      "thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-06.webp",
-      "credit": "Unsplash · milad-fakurian"
-    },
-    {
-      "id": "amber-07",
-      "title": "Color Waves",
-      "category": "Abstract",
-      "url": "https://amberweb.lt/amber-tv/wallpapers/amber-07.webp",
-      "thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-07.webp",
-      "credit": "Unsplash · milad-fakurian"
-    },
-    {
-      "id": "amber-08",
-      "title": "Midnight Blue",
-      "category": "Abstract",
-      "url": "https://amberweb.lt/amber-tv/wallpapers/amber-08.webp",
-      "thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-08.webp",
-      "credit": "Unsplash · richard-horvath"
-    },
-    {
-      "id": "amber-09",
-      "title": "Black Dunes",
-      "category": "Nature",
-      "url": "https://amberweb.lt/amber-tv/wallpapers/amber-09.webp",
-      "thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-09.webp",
-      "credit": "Unsplash · mokhalad-musavi"
-    },
-    {
-      "id": "amber-10",
-      "title": "Green Valley",
-      "category": "Nature",
-      "url": "https://amberweb.lt/amber-tv/wallpapers/amber-10.webp",
-      "thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-10.webp",
-      "credit": "Unsplash · pouria"
-    },
-    {
-      "id": "amber-11",
-      "title": "Mountain Ridge",
-      "category": "Nature",
-      "url": "https://amberweb.lt/amber-tv/wallpapers/amber-11.webp",
-      "thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-11.webp",
-      "credit": "Unsplash · julian-christian-anderson"
-    },
-    {
-      "id": "amber-12",
-      "title": "Desert Dunes",
-      "category": "Nature",
-      "url": "https://amberweb.lt/amber-tv/wallpapers/amber-12.webp",
-      "thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-12.webp",
-      "credit": "Unsplash · willian-justen-de-vasconcellos"
-    },
-    {
-      "id": "amber-13",
-      "title": "Cloud Peak",
-      "category": "Nature",
-      "url": "https://amberweb.lt/amber-tv/wallpapers/amber-13.webp",
-      "thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-13.webp",
-      "credit": "Unsplash · paula-vermeulen"
-    },
-    {
-      "id": "amber-14",
-      "title": "Blue Mountains",
-      "category": "Nature",
-      "url": "https://amberweb.lt/amber-tv/wallpapers/amber-14.webp",
-      "thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-14.webp",
-      "credit": "Unsplash · tyler-lastovich"
-    },
-    {
-      "id": "amber-15",
-      "title": "Misty Forest",
-      "category": "Nature",
-      "url": "https://amberweb.lt/amber-tv/wallpapers/amber-15.webp",
-      "thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-15.webp",
-      "credit": "Unsplash · adrian-infernus"
-    },
-    {
-      "id": "amber-16",
-      "title": "Golden Mist",
-      "category": "Nature",
-      "url": "https://amberweb.lt/amber-tv/wallpapers/amber-16.webp",
-      "thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-16.webp",
-      "credit": "Unsplash · kristaps-ungurs"
-    },
-    {
-      "id": "amber-17",
-      "title": "Night Mountains",
-      "category": "Nature",
-      "url": "https://amberweb.lt/amber-tv/wallpapers/amber-17.webp",
-      "thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-17.webp",
-      "credit": "Unsplash · mohammad-alizade"
-    },
-    {
-      "id": "amber-18",
-      "title": "Turquoise Layers",
-      "category": "Abstract",
-      "url": "https://amberweb.lt/amber-tv/wallpapers/amber-18.webp",
-      "thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-18.webp",
-      "credit": "Unsplash · willian-justen-de-vasconcellos"
-    }
-  ]
+	"version": 1,
+	"wallpapers": [
+		{
+			"id": "nature-01",
+			"title": "Misty Valley",
+			"category": "Nature",
+			"url": "/wallpapers/images/01-misty-valley.jpg",
+			"thumbnail": "/wallpapers/thumbnails/01-misty-valley.jpg",
+			"credit": "Photo by Pine Watt on Unsplash"
+		},
+		{
+			"id": "nature-02",
+			"title": "Winter Silence",
+			"category": "Winter",
+			"url": "/wallpapers/images/02-winter-silence.jpg",
+			"thumbnail": "/wallpapers/thumbnails/02-winter-silence.jpg",
+			"credit": "Photo by Martin Grazer on Unsplash"
+		},
+		{
+			"id": "nature-03",
+			"title": "Alpine Cabin",
+			"category": "Winter",
+			"url": "/wallpapers/images/03-alpine-cabin.jpg",
+			"thumbnail": "/wallpapers/thumbnails/03-alpine-cabin.jpg",
+			"credit": "Photo by Ezra Jeffrey Comeau on Unsplash"
+		},
+		{
+			"id": "nature-04",
+			"title": "Frozen Lake",
+			"category": "Winter",
+			"url": "/wallpapers/images/04-frozen-lake.jpg",
+			"thumbnail": "/wallpapers/thumbnails/04-frozen-lake.jpg",
+			"credit": "Photo by Dominik Dombrowski on Unsplash"
+		},
+		{
+			"id": "nature-05",
+			"title": "Frosted Forest",
+			"category": "Nature",
+			"url": "/wallpapers/images/05-frosted-forest.jpg",
+			"thumbnail": "/wallpapers/thumbnails/05-frosted-forest.jpg",
+			"credit": "Photo by Atle Mo on Unsplash"
+		},
+		{
+			"id": "nature-06",
+			"title": "Snowy Peaks",
+			"category": "Winter",
+			"url": "/wallpapers/images/06-snowy-peaks.jpg",
+			"thumbnail": "/wallpapers/thumbnails/06-snowy-peaks.jpg",
+			"credit": "Photo by Joel Jasmin Forestbird on Unsplash"
+		},
+		{
+			"id": "nature-07",
+			"title": "Mountain Shadows",
+			"category": "Mountains",
+			"url": "/wallpapers/images/07-mountain-shadows.jpg",
+			"thumbnail": "/wallpapers/thumbnails/07-mountain-shadows.jpg",
+			"credit": "Photo by Simon Fitall on Unsplash"
+		},
+		{
+			"id": "nature-08",
+			"title": "Above the Clouds",
+			"category": "Mountains",
+			"url": "/wallpapers/images/08-above-the-clouds.jpg",
+			"thumbnail": "/wallpapers/thumbnails/08-above-the-clouds.jpg",
+			"credit": "Photo by Sam Sommer on Unsplash"
+		},
+		{
+			"id": "nature-09",
+			"title": "Emerald Lake",
+			"category": "Nature",
+			"url": "/wallpapers/images/09-emerald-lake.jpg",
+			"thumbnail": "/wallpapers/thumbnails/09-emerald-lake.jpg",
+			"credit": "Photo by Joel Vodell on Unsplash"
+		},
+		{
+			"id": "nature-10",
+			"title": "Open Road",
+			"category": "Landscape",
+			"url": "/wallpapers/images/10-open-road.jpg",
+			"thumbnail": "/wallpapers/thumbnails/10-open-road.jpg",
+			"credit": "Photo by Jeremy Bishop on Unsplash"
+		},
+		{
+			"id": "nature-11",
+			"title": "Forest Road",
+			"category": "Nature",
+			"url": "/wallpapers/images/11-forest-road.jpg",
+			"thumbnail": "/wallpapers/thumbnails/11-forest-road.jpg",
+			"credit": "Photo by John Towner on Unsplash"
+		},
+		{
+			"id": "nature-12",
+			"title": "Desert Night",
+			"category": "Night",
+			"url": "/wallpapers/images/12-desert-night.jpg",
+			"thumbnail": "/wallpapers/thumbnails/12-desert-night.jpg",
+			"credit": "Photo by John Fowler on Unsplash"
+		},
+		{
+			"id": "nature-13",
+			"title": "Mountain Horizon",
+			"category": "Mountains",
+			"url": "/wallpapers/images/13-mountain-horizon.jpg",
+			"thumbnail": "/wallpapers/thumbnails/13-mountain-horizon.jpg",
+			"credit": "Photo by Tobias Keller on Unsplash"
+		},
+		{
+			"id": "amber-01",
+			"title": "Quiet Fjord",
+			"category": "Nature",
+			"url": "https://amberweb.lt/amber-tv/wallpapers/amber-01.webp",
+			"thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-01.webp",
+			"credit": "Unsplash · fabrizio-conti"
+		},
+		{
+			"id": "amber-02",
+			"title": "Architectural Lines",
+			"category": "Architecture",
+			"url": "https://amberweb.lt/amber-tv/wallpapers/amber-02.webp",
+			"thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-02.webp",
+			"credit": "Unsplash · joel-filipe"
+		},
+		{
+			"id": "amber-03",
+			"title": "Violet Flow",
+			"category": "Abstract",
+			"url": "https://amberweb.lt/amber-tv/wallpapers/amber-03.webp",
+			"thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-03.webp",
+			"credit": "Unsplash · martin-martz"
+		},
+		{
+			"id": "amber-04",
+			"title": "White Geometry",
+			"category": "Architecture",
+			"url": "https://amberweb.lt/amber-tv/wallpapers/amber-04.webp",
+			"thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-04.webp",
+			"credit": "Unsplash · julien-moreau"
+		},
+		{
+			"id": "amber-05",
+			"title": "Monochrome Pattern",
+			"category": "Abstract",
+			"url": "https://amberweb.lt/amber-tv/wallpapers/amber-05.webp",
+			"thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-05.webp",
+			"credit": "Unsplash · pat-whelen"
+		},
+		{
+			"id": "amber-06",
+			"title": "Dark Sculpture",
+			"category": "Abstract",
+			"url": "https://amberweb.lt/amber-tv/wallpapers/amber-06.webp",
+			"thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-06.webp",
+			"credit": "Unsplash · milad-fakurian"
+		},
+		{
+			"id": "amber-07",
+			"title": "Color Waves",
+			"category": "Abstract",
+			"url": "https://amberweb.lt/amber-tv/wallpapers/amber-07.webp",
+			"thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-07.webp",
+			"credit": "Unsplash · milad-fakurian"
+		},
+		{
+			"id": "amber-08",
+			"title": "Midnight Blue",
+			"category": "Abstract",
+			"url": "https://amberweb.lt/amber-tv/wallpapers/amber-08.webp",
+			"thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-08.webp",
+			"credit": "Unsplash · richard-horvath"
+		},
+		{
+			"id": "amber-09",
+			"title": "Black Dunes",
+			"category": "Nature",
+			"url": "https://amberweb.lt/amber-tv/wallpapers/amber-09.webp",
+			"thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-09.webp",
+			"credit": "Unsplash · mokhalad-musavi"
+		},
+		{
+			"id": "amber-10",
+			"title": "Green Valley",
+			"category": "Nature",
+			"url": "https://amberweb.lt/amber-tv/wallpapers/amber-10.webp",
+			"thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-10.webp",
+			"credit": "Unsplash · pouria"
+		},
+		{
+			"id": "amber-11",
+			"title": "Mountain Ridge",
+			"category": "Nature",
+			"url": "https://amberweb.lt/amber-tv/wallpapers/amber-11.webp",
+			"thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-11.webp",
+			"credit": "Unsplash · julian-christian-anderson"
+		},
+		{
+			"id": "amber-12",
+			"title": "Desert Dunes",
+			"category": "Nature",
+			"url": "https://amberweb.lt/amber-tv/wallpapers/amber-12.webp",
+			"thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-12.webp",
+			"credit": "Unsplash · willian-justen-de-vasconcellos"
+		},
+		{
+			"id": "amber-13",
+			"title": "Cloud Peak",
+			"category": "Nature",
+			"url": "https://amberweb.lt/amber-tv/wallpapers/amber-13.webp",
+			"thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-13.webp",
+			"credit": "Unsplash · paula-vermeulen"
+		},
+		{
+			"id": "amber-14",
+			"title": "Blue Mountains",
+			"category": "Nature",
+			"url": "https://amberweb.lt/amber-tv/wallpapers/amber-14.webp",
+			"thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-14.webp",
+			"credit": "Unsplash · tyler-lastovich"
+		},
+		{
+			"id": "amber-15",
+			"title": "Misty Forest",
+			"category": "Nature",
+			"url": "https://amberweb.lt/amber-tv/wallpapers/amber-15.webp",
+			"thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-15.webp",
+			"credit": "Unsplash · adrian-infernus"
+		},
+		{
+			"id": "amber-16",
+			"title": "Golden Mist",
+			"category": "Nature",
+			"url": "https://amberweb.lt/amber-tv/wallpapers/amber-16.webp",
+			"thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-16.webp",
+			"credit": "Unsplash · kristaps-ungurs"
+		},
+		{
+			"id": "amber-17",
+			"title": "Night Mountains",
+			"category": "Nature",
+			"url": "https://amberweb.lt/amber-tv/wallpapers/amber-17.webp",
+			"thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-17.webp",
+			"credit": "Unsplash · mohammad-alizade"
+		},
+		{
+			"id": "amber-18",
+			"title": "Turquoise Layers",
+			"category": "Abstract",
+			"url": "https://amberweb.lt/amber-tv/wallpapers/amber-18.webp",
+			"thumbnail": "https://amberweb.lt/amber-tv/thumbnails/amber-18.webp",
+			"credit": "Unsplash · willian-justen-de-vasconcellos"
+		}
+	]
 }
