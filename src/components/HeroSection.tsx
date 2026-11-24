@@ -127,16 +127,10 @@ const HeroSection: React.FC<HeroSectionProps> = ({ h1, introText }) => {
 							)}
 						</motion.h1>
 
-						<motion.p
-							initial="hidden"
-							animate={inView ? "visible" : "hidden"}
-							variants={titleVariants}
-							custom={2}
-							className="mx-auto max-w-2xl text-base leading-relaxed text-white/65 sm:text-lg md:text-xl"
-						>
+						<p className="mx-auto max-w-2xl text-base leading-relaxed text-white/65 sm:text-lg md:text-xl">
 							{introText ||
 								"Idėjas paverčiame profesionaliomis interneto svetainėmis, naudodami pažangias technologijas ir kūrybiškus sprendimus, kurie padeda jūsų verslui augti."}
-						</motion.p>
+						</p>
 					</div>
 
 					{/* CTA */}
