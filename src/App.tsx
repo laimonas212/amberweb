@@ -1,7 +1,6 @@
 import React, { lazy, Suspense, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
-import { motion } from "framer-motion";
 
 import GoogleConsent from "./components/GoogleConsent";
 import Navbar from "./components/Navbar";
@@ -81,12 +80,7 @@ function App() {
 				<ScrollToTopButton />
 
 				<div className="min-h-screen bg-background overflow-hidden flex flex-col">
-					<motion.div
-						initial={{ opacity: 0 }}
-						animate={{ opacity: 1 }}
-						transition={{ duration: 0.5 }}
-						className="relative z-10 flex-grow"
-					>
+					<div className="relative z-10 flex-grow">
 						<Suspense fallback={<RouteFallback />}>
 							<Routes>
 							{/* Pagrindinis puslapis */}
@@ -253,7 +247,7 @@ function App() {
 							<Route path="*" element={<NotFoundPage />} />
 							</Routes>
 						</Suspense>
-					</motion.div>
+					</div>
 
 					<Footer />
 				</div>
